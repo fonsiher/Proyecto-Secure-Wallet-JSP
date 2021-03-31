@@ -1,0 +1,246 @@
+html, body {
+	font-family: Arial;
+	/*background-color: #f2f2f2;*/
+	padding: 0px !important;
+	margin: 0px !important;
+	padding-top: 80px !important;
+	min-height: 100%;
+	/*background: rgba(147,206,222,1);
+background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -o-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=0 );*/
+	background: rgba(198, 233, 242, 1);
+	background: -moz-linear-gradient(top, rgba(198, 233, 242, 1) 0%,
+		rgba(117, 189, 209, 1) 55%, rgba(73, 165, 191, 1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(198, 233,
+		242, 1)), color-stop(55%, rgba(117, 189, 209, 1)),
+		color-stop(100%, rgba(73, 165, 191, 1)));
+	background: -webkit-linear-gradient(top, rgba(198, 233, 242, 1) 0%,
+		rgba(117, 189, 209, 1) 55%, rgba(73, 165, 191, 1) 100%);
+	background: -o-linear-gradient(top, rgba(198, 233, 242, 1) 0%,
+		rgba(117, 189, 209, 1) 55%, rgba(73, 165, 191, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(198, 233, 242, 1) 0%,
+		rgba(117, 189, 209, 1) 55%, rgba(73, 165, 191, 1) 100%);
+	background: linear-gradient(to bottom, rgba(198, 233, 242, 1) 0%,
+		rgba(117, 189, 209, 1) 55%, rgba(73, 165, 191, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6e9f2',
+		endColorstr='#49a5bf', GradientType=0);
+}
+
+.main {
+	-moz-flex-grow: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+	-moz-flex-shrink: 1;
+	-webkit-flex-shrink: 1;
+	-ms-flex-shrink: 1;
+	flex-shrink: 1;
+	width: 97%;
+	height: -moz-calc(100% - 150px);
+	height: -webkit-calc(100% - 150px);
+	height: calc(100% - 150px);
+	padding: 15px;
+	background-color: #bae7fe;
+}
+
+.cabecera {
+	width: 100%;
+	height: 220px;
+	background-color: #AAFFDF;
+	text-align: center;
+	padding-top: 15px;
+	font-family: cursive; font-size : 25pt;
+	font-weight: 600;
+	box-shadow: rgba(0, 0, 0, .25) 0px 5px 5px;
+	left: 10;
+	top: 0;
+	position: fixed;
+	z-index: 50;
+	font-size: 25pt;
+}
+
+.footer {
+	width: 100%;
+	height: 40px;
+	font-family: Verdana;
+	font-size: 09pt;
+	background-color: white;
+	text-align: center;
+	bottom: 0px;
+	padding-top: 5px;
+	box-shadow: rgba(0, 0, 0, .25) 0px 5px 15px;
+	line-height: 1em;
+	bottom: 0;
+	position: fixed;
+	box-shadow: rgba(0, 0, 0, .25) 0px 5px 15px;
+	z-index: 50;
+}
+
+.cuerpo {
+	text-align: justify;
+	padding: 40px;
+	background-color: white;
+	font-family: "Constantia", serif;
+	font-size: 135%;
+}
+
+.tabla {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 20px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	
+}
+
+th {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	font-family: "Constantia", serif;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+
+td {
+	padding: 8px;
+	background: #e8edff;
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+	text-align: center;
+}
+
+tr:hover td {
+	background: #d0dafd;
+	color: #339;
+}
+
+
+
+
+.tabla2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 20px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	
+}
+
+th {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	font-family: "Constantia", serif;
+	padding: 8px;
+	background: #46fb54;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+
+td {
+	padding: 8px;
+	background: #b9fea5;
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+	text-align: center;
+}
+
+tr:hover td {
+	background: #b9fea5;
+	color: #339;
+}
+
+
+nav {
+	/*Bordes redondeados*/
+	-webkit-border-radius: 10px; /*Para chrome y Safari*/
+	-moz-border-radius: 10px; /*Para Firefox*/
+	-o-border-radius: 10px; /*Para Opera*/
+	border-radius: 10px; /*El estandar por defecto*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF),
+		to(#B3E6D3)); /*Para chrome y Safari*/
+	/*Degradados*/
+	background-image: -moz-linear-gradient(top center, #FFF, #B3E6D3);
+	/*Para Firefox*/
+	background-image: -o-linear-gradient(top, #FFF, #B3E6D3);
+	/*Para Opera*/
+	background-image: linear-gradient(top, #FFF, #B3E6D3);
+	/*El estandar por defecto*/
+	overflow: hidden;
+	padding: 10px;
+	width: 90%;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px 0 10px;
+	padding: 0;
+}
+
+nav ul li {
+	/*Bordes redondeados*/
+	-webkit-border-radius: 5px; /*Chrome y Safari*/
+	-moz-border-radius: 5px; /*Firefox*/
+	-o-border-radius: 5px; /*Opera*/
+	border-radius: 5px; /*Estandar por defecto*/
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 10px;
+	text-align: center;
+	/*Sombras para texto, los mismos parametros que box-shadow*/
+	text-shadow: 0px 1px 0px #FFF;
+}
+
+nav ul li:hover {
+	/*Degradado de fondo*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF),
+		to(#E3E3E3)); /*Chrome y Safari*/
+	background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);
+	/*Firefox*/
+	background-image: -o-linear-gradient(top, #FFF, #E3E3E3); /*Opera*/
+	background-image: linear-gradient(top, #FFF, #E3E3E3);
+	/*Estandar por defecto*/
+	/*Sombras*/
+	-webkit-box-shadow: 1px -1px 0px #999; /*Chrome y Safari*/
+	-moz-box-shadow: 1px -1px 0px #999; /*Firefox*/
+	-o-box-shadow: 1px -1px 0px #999; /*Opera*/
+	box-shadow: 1px -1px 0px #999; /*Estandar por defecto*/
+	border: 1px solid #E3E3E3;
+}
+
+nav ul li a {
+	color: #999;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	/*Transiciones*/
+	-webkit-transition: 0.4s linear all;
+	-moz-transition: 0.4s linear all;
+	-o-transition: 0.4s linear all;
+	transition: 0.4s linear all;
+}
+
+nav ul li a:hover {
+	color: #000;
+}
+
+.sinbordes tr, .sinbordes td {
+	border: none !important;
+	background-color: transparent !important;
+}
